@@ -1,6 +1,9 @@
 {
   "name": "@mateswapfi/core",
   "version": "0.0.1",
+  "publishConfig": {
+    "access": "public"
+  },
   "license": "MIT",
   "types": "./types/index.ts",
   "description": "Core contracts for the MateSwap protocol",
