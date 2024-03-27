@@ -9,11 +9,11 @@ npx hardhat node
 ## Mainnet
 
 ```sh
-yarn dogechain:deploy --gasprice 50000000000
+yarn lachain:deploy --gasprice 50000000000
 ```
 
 ## Amber
 
 ```sh
-yarn dogechain-testnet:deploy --gasprice 50000000000
+yarn lachain-testnet:deploy --gasprice 50000000000
 ```

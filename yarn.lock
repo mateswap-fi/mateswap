@@ -23,19 +23,6 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
-"@boneswapfi/sdk@^0.0.12":
-  version "0.0.12"
-  resolved "https://registry.yarnpkg.com/@boneswapfi/sdk/-/sdk-0.0.12.tgz#9d656b713c03c3a49172b056428bd341552acd8c"
-  integrity sha512-4PwyxHGeyveh/R/Djy8E+Kpbphpida6cPgJO+Tij3fjevlTkYnMQjYt8H///Y0nahsYYPI57WqJIqzGhECJarg==
-  dependencies:
-    big.js "^6.1.0"
-    decimal.js-light "^2.5.0"
-    isomorphic-unfetch "^3.1.0"
-    jsbi "^3.1.0"
-    tiny-invariant "^1.1.0"
-    tiny-warning "^1.0.3"
-    toformat "^2.0.0"
-
 "@boringcrypto/boring-solidity@boringcrypto/BoringSolidity#e06e943":
   version "1.0.4"
   resolved "https://codeload.github.com/boringcrypto/BoringSolidity/tar.gz/e06e943e7e8a168ed0395ef663a17fd71a6949a2"
@@ -500,6 +487,19 @@
   integrity sha512-T9HUVEjEgM0MzVLY4gs52ffz5AlHeC3CSGFcEzL4ojKMVzMxa3na1GW/XCmunrhnWP2cDh4fE2MhqLxA0CHqTw==
   dependencies:
     keccak "^3.0.0"
+
+"@mateswapfi/sdk@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@mateswapfi/sdk/-/sdk-0.0.1.tgz#492b41b38d8ae62c220fcde094890119fcc95183"
+  integrity sha512-x0b63/lI/QaWwtjPJxHLlzMxSrGQRKCI7pzGAGHtBCuvwMn5GzMmVZzFZYrzTGjih9aCrE/kwJ4VHQoX8loBlA==
+  dependencies:
+    big.js "^6.1.0"
+    decimal.js-light "^2.5.0"
+    isomorphic-unfetch "^3.1.0"
+    jsbi "^3.1.0"
+    tiny-invariant "^1.1.0"
+    tiny-warning "^1.0.3"
+    toformat "^2.0.0"
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"

@@ -1,10 +1,10 @@
-# BoneSwap
+# MateSwap
 
-https://boneswap.fi
+https://mateswap.fi
 
 ## Deployed Contracts
 
-https://github.com/boneswap-fi/boneswap-sdk/blob/master/src/constants/addresses.ts
+https://github.com/mateswap-fi/mateswap-sdk/blob/master/src/constants/addresses.ts
 
 ## Docs
 

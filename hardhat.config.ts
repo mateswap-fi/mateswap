@@ -70,24 +70,24 @@ const config: HardhatUserConfig = {
     hardhat: {
       forking: {
         enabled: process.env.FORKING === "true",
-        url: `https://rpc01-sg.dogechain.dog`,
+        url: `https://rpc1.mainnet.lachain.network`,
         blockNumber: 920398,
       },
       live: false,
       saveDeployments: true,
       tags: ["test", "local"],
     },
-    dogechain: {
-      url: "https://rpc01-sg.dogechain.dog",
-      // url: "https://rpc02-sg.dogechain.dog",
+    lachain: {
+      url: "https://rpc1.mainnet.lachain.network",
+      // url: "https://rpc2.mainnet.lachain.network",
       accounts: myAccounts,
-      chainId: 2000,
+      chainId: 274,
       live: true,
       saveDeployments: true,
       gasMultiplier: 2,
     },
-    "dogechain-testnet": {
-      url: "https://rpc-testnet.dogechain.dog",
+    "lachain-testnet": {
+      url: "https://rpc-testnet.lachain.dog",
       accounts: myAccounts,
       chainId: 568,
       live: true,
@@ -125,7 +125,7 @@ const config: HardhatUserConfig = {
     overwrite: false,
     runOnCompile: true,
   },
-
+  typechain: {
     outDir: "types",
     target: "ethers-v5",
   },
