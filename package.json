@@ -1,9 +1,9 @@
 {
-  "name": "@boneswapfi/core",
-  "version": "0.0.5",
+  "name": "@mateswapfi/core",
+  "version": "0.0.1",
   "license": "MIT",
   "types": "./types/index.ts",
-  "description": "Core contracts for the BoneSwap protocol",
+  "description": "Core contracts for the MateSwap protocol",
   "files": [
     "abi",
     "artifacts",
@@ -15,24 +15,22 @@
   "author": "",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/boneswap-fi/boneswap.git"
+    "url": "git+https://github.com/mateswap-fi/mateswap.git"
   },
   "bugs": {
-    "url": "https://github.com/boneswap-fi/boneswap/issues"
+    "url": "https://github.com/mateswap-fi/mateswap/issues"
   },
-  "homepage": "https://github.com/boneswap-fi/boneswap#readme",
+  "homepage": "https://github.com/mateswap-fi/mateswap#readme",
   "keywords": [
-    "boneswap",
-    "dogechain",
-    "doge"
+    "mateswap"
   ],
   "scripts": {
     "build": "hardhat compile",
     "console": "hardhat console",
-    "dogechain:deploy": "hardhat --network dogechain deploy",
-    "dogechain:export": "hardhat --network dogechain export --export exports/dogechain.json",
-    "dogechain-testnet:deploy": "hardhat --network dogechain-testnet deploy",
-    "dogechain-testnet:export": "hardhat --network dogechain-testnet export --export exports/dogechain-testnet.json",
+    "lachain:deploy": "hardhat --network lachain deploy",
+    "lachain:export": "hardhat --network lachain export --export exports/lachain.json",
+    "lachain-testnet:deploy": "hardhat --network lachain-testnet deploy",
+    "lachain-testnet:export": "hardhat --network lachain-testnet export --export exports/lachain-testnet.json",
     "export": "hardhat export --export-all exports/deployments.json",
     "testverbose": "hardhat test --verbose",
     "test": "hardhat test",
@@ -43,7 +41,7 @@
     "prepublishOnly": "yarn run build"
   },
   "devDependencies": {
-    "@boneswapfi/sdk": "^0.0.16",
+    "@mateswapfi/sdk": "^0.0.1",
     "@boringcrypto/boring-solidity": "boringcrypto/BoringSolidity#e06e943",
     "@nomiclabs/hardhat-ethers": "^2.0.0",
     "@nomiclabs/hardhat-solhint": "^2.0.0",

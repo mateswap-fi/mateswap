@@ -1,4 +1,4 @@
-const { WNATIVE } = require("@boneswapfi/sdk");
+const { WNATIVE } = require("@mateswapfi/sdk");
 
 module.exports = async function ({ getNamedAccounts, deployments }) {
   const { deploy } = deployments;
